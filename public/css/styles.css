@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*GENERAL*/
+
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+    --tipografia: 'Roboto', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: var(--tipografia);}
+
+.titular{
+    font-size: 24px;
+}
+
+
+body p{
+    font-size: 12px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.descripcion{
+   font-size: 16px;
+}
+/*HEADER*/
+
+header{ 
+    width: 100%;
+    height: 100%;
+    background-color: var(--Amarillo);
+    margin:0 auto;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: -35px;
+}
+
+.burger-menu{  
+    text-align: center;
+    padding: 4px;
+   background-color: var(--Celeste);
+   border-radius: 5px;
+   width: 2rem;
+   margin:0 auto;
+    color: white; 
+    font-size: 20px;
+}
+
+.compra_cuotas{
+    text-align: center;   
+}
+
+header ul li i{
+    margin-left: 5px;
+}
+
+.barra_busqueda{
+    margin-left: 10px;
+}
+
+.logo_busqueda {
+    background-color: white;
+    border: solid 1px;
+    width: 22px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+header img{
+    height:80px;
+    width:200px
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+    color: var(--GrisOscuro);
+}
+
+.logo_usuario, .logo_regalo, .logo_tarjeta{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--Celeste);
+}
+
+footer section{
+    padding: 5px
+}
+
+footer section h4{
+    margin-bottom: 1px;
+}
+
+footer section p{
+    margin-top: 3px;
+}
+
+
