@@ -1,0 +1,55 @@
+/*HEADER*/
+
+header{ 
+    width: 100%;
+    height: 100%;
+    background-color: var(--Amarillo);
+    margin:0 auto;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: -35px;
+}
+
+.burger-menu{  
+    text-align: center;
+    padding: 4px;
+   background-color: var(--Celeste);
+   border-radius: 5px;
+   width: 2rem;
+   margin:0 auto;
+    color: white; 
+    font-size: 20px;
+}
+
+.compra_cuotas{
+    text-align: center;   
+}
+
+header ul li i{
+    margin-left: 5px;
+}
+
+.barra_busqueda{
+    margin-left: 10px;
+}
+
+.logo_busqueda {
+    background-color: white;
+    border: solid 1px;
+    width: 22px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+header img{
+    height:80px;
+    width:200px
+}
