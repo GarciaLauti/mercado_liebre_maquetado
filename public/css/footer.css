@@ -2,7 +2,7 @@
 
 footer{
     text-align: center;
-    color: var(--GrisOscuro);
+    background-color: var(--GrisClaro);
 }
 
 .logo_usuario, .logo_regalo, .logo_tarjeta{
@@ -22,3 +22,4 @@ footer section h4{
 footer section p{
     margin-top: 3px;
 }
+

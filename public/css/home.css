@@ -18,3 +18,82 @@ body p{
 .descripcion{
    font-size: 16px;
 }
+
+body{
+    background-color: var(--Amarillo);
+}
+
+/*MAIN*/
+
+.main_banner{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: var(--GrisClaro);
+    text-align: center;
+}
+
+
+.main_article{
+    width: 90%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+main section{
+    text-align: center;
+    gap: 10px;
+    display: flex;  
+    flex-direction: column;
+}
+
+
+.main_article div i{
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    padding: 2%;
+    margin-top: 5px;
+}
+
+.main_article div{
+    border-top: 1px solid #ebebeb;
+    gap: 15px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+/*mobile*/
+@media (max-width: 360px){
+    .descripcion{
+        display: none;
+    }
+    body ul{
+        display: none;
+    }
+    .barra_busqueda , .logo_busqueda{
+        display: flex;
+       flex-wrap: wrap ;
+    }
+}
+
+/*desktop*/
+@media (min-width: 769px){
+    
+
+}
+
+/*tablet*/
+@media (min-width: 361px){
+
+    main section article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+    .burger-menu{
+        display: none;
+    }
+   
+}

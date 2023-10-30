@@ -4,17 +4,18 @@ header{
     width: 100%;
     height: 100%;
     background-color: var(--Amarillo);
-    margin:0 auto;
+   
 }
 
 header ul li{
     list-style: none;
+    margin: 0 auto;
 }
 
 header ul li a{
     text-decoration: none;
     color: black;
-    margin-left: -35px;
+    margin: 0
 }
 
 .burger-menu{  
@@ -37,19 +38,22 @@ header ul li i{
 }
 
 .barra_busqueda{
-    margin-left: 10px;
+    margin-left: 3%;
 }
 
 .logo_busqueda {
     background-color: white;
-    border: solid 1px;
-    width: 22px;
-    text-align: center;
-    margin-left: 10px;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
     margin-top: 3px;
+    padding-top: 2px;
+    padding-left: 1px;
 }
 
 header img{
     height:80px;
-    width:200px
+    width:200px;
+    
 }
