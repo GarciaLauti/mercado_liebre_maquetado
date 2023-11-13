@@ -57,3 +57,203 @@ header img{
     width:200px;
     
 }
+
+
+/*mobile*/
+@media (max-width: 360px){
+    header img, .barra_busqueda input{
+        width: 50%;
+    }
+    
+    .barra_busqueda input, .logo_busqueda{
+        position: relative;
+        left: 173px;
+        bottom: 50px;
+    }
+
+    .barra_busqueda input{
+        border-radius: 10px;
+        border: #ffffff;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    .barra_busqueda, .logo_busqueda{
+        display: flex;
+    }
+
+    .compra_cuotas{
+        position: relative;
+        bottom: 20px;
+    }
+
+    .logo_busqueda{
+        position: relative;
+        left: 140px;
+        bottom: 52px;
+        border: #ffffff;
+        border-radius: 10px;
+        padding-left: 0 10px
+        
+    }
+}
+    
+
+    /*tablet*/
+    @media (min-width: 361px){
+
+        .header_contenedor{
+        display: flex;
+        flex-wrap: wrap;
+         width: 100%;
+         display: inline-flex;
+        flex-wrap: nowrap;
+       
+       
+        
+        }
+
+        header img, .barra_busqueda, .compra_cuotas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .burger-menu{
+            display: none;
+        }
+    
+        .logo_busqueda{
+            position: relative;
+            bottom: 22px;
+            left: 33%;
+            border-radius: 10px;
+            border: #ffffff;
+            background-color: rgba(255, 255, 255, 0)
+        }
+    
+    header img{
+        width: 30%;
+    }
+    .barra_busqueda{
+        width: 40%;
+        
+    }
+    .barra_busqueda Input{
+        width: 30vw;
+        border-radius: 5px;
+        border: #ffffff;
+    }
+
+    .compra_cuotas{
+        width: 30%;
+        flex-direction:row;
+
+    }
+    
+
+    .header_section
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px ;
+        width: 98%;
+    }
+    .header_nav{
+            width: 48%;
+            display: inline-block;
+    }
+    
+    .header_nav ul{
+        display:inline-flex;
+        gap: 5px;
+        font-size: 47%;
+    }
+
+
+    .header_nav ul li{
+        display: block;
+        font-weight: 600;
+    }
+
+    }
+
+    /*desktop*/
+    @media (min-width: 769px){
+        .header_contenedor{
+            display: flex;
+            flex-wrap: wrap;
+             width: 100%;
+             display: inline-flex;
+            flex-wrap: nowrap;
+           
+           
+            
+            }
+    
+            header img, .barra_busqueda, .compra_cuotas{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .burger-menu{
+                display: none;
+            }
+        
+            .logo_busqueda{
+                position: relative;
+                bottom: 22px;
+                left: 38%;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0)
+            }
+
+        
+        header img{
+            width: 30%;
+        }
+
+        .barra_busqueda{
+            width: 30%;
+            
+        }
+
+        .barra_busqueda Input{
+            width: 28vw;
+            border-radius: 10px;
+        }
+    
+        .compra_cuotas{
+            width: 35%;
+            flex-direction:row;
+        }
+        
+    
+        .header_section
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 10px ;
+        }
+        .header_nav{
+                width: 48%;
+        }
+        
+        .header_nav ul{
+            display:inline-flex;
+            gap: 15px;
+        }
+    
+    
+        .header_nav ul li{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        }

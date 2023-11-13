@@ -3,6 +3,10 @@
 footer{
     text-align: center;
     background-color: var(--GrisClaro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo_usuario, .logo_regalo, .logo_tarjeta{
@@ -21,5 +25,30 @@ footer section h4{
 
 footer section p{
     margin-top: 3px;
+}
+
+/*tablet*/
+@media (min-width: 361px){
+    footer{
+        background-color: var(--GrisClaro);
+    }
+    
+    .logo_usuario, .logo_regalo, .logo_tarjeta{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: var(--Celeste);
+        text-align: center;
+    }
+    
+    footer section{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
 }
 

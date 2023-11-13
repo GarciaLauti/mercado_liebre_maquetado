@@ -4,4 +4,6 @@
 @import './header.css';
 @import './home.css';
 @import './normalize.css';
-@import './main.css'
+@import './main.css';
+@import './register.css';
+@import './login.css'
