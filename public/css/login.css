@@ -1,0 +1,38 @@
+
+
+.boton_paginaprincipal{
+    text-decoration: none;
+    border: 1px solid ;
+    background-color: rgb(22, 49, 138) ;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    margin-top: 20px;
+}
+.div_boton_paginaprincipal{
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+.main_login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form_box_login input{
+    width: 80%;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #c0c0c0;
+    padding: 1.5% ;
+}
+
+.form_box_login input:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5) ;
+}
+
+.form_box_login{
+    text-align: center;
+}
