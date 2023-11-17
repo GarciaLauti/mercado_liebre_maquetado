@@ -7,6 +7,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .logo_usuario, .logo_regalo, .logo_tarjeta{
@@ -31,6 +32,7 @@ footer section p{
 @media (min-width: 361px){
     footer{
         background-color: var(--GrisClaro);
+        padding-top: 20px;
     }
     
     .logo_usuario, .logo_regalo, .logo_tarjeta{
@@ -48,6 +50,30 @@ footer section p{
         justify-content: center;
         text-align: center;
     }
+    
+
+}
+
+/*desktop*/
+@media (min-width: 769px){
+    footer{
+        background-color: var(--GrisClaro);
+        padding-top: 20px;
+       display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    footer section{
+        width: 32%;
+    }
+
+    footer section h5{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
     
 
 }

@@ -13,7 +13,11 @@
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;   
+    flex-direction: column;  
+    width: 70%; 
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 10px;
 }
 .main_login{
     display: flex;

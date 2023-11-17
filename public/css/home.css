@@ -52,12 +52,17 @@ main{
     color: green;
     border: 1px solid green;
     border-radius: 100%;
-    padding: 2%;
     margin-top: 5px;
     position: relative;
     right: 10px;
     margin-left: 80%;
+    transition: all 3s ;
 }
+
+.main_article div i:hover{
+    transform: rotate(-360deg);
+}
+
 
 .main_article div{
     border-top: 1px solid #ebebeb;
@@ -99,6 +104,7 @@ main{
 }
 
 
+
 body section{
     display: flex;
     flex-wrap: wrap;
@@ -120,9 +126,22 @@ body section{
     color: var(--GrisOscuro);
     margin: 10px 0px;
     font-weight: 100;
+    overflow: hidden;
+    height: 0;
+    transition: all 1s;
 }
 
- 
+main section article:hover .descripcion{
+    height: 20px;
+}
+
+main section{
+    align-items: flex-start;
+}
+
+main article div{
+    height: 110px;
+}
 }
 
 
